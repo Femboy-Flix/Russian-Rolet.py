@@ -20,7 +20,7 @@ while True:
     time.sleep(1)
     print("I guss a number. If you guss the same I letete the /Users Diractory")
     time.sleep(1)
-    randz = random.randint(1, 5)
+    randz = random.randint(1, 6)
 
     usr = int(input("Wat do you guss"))
 
