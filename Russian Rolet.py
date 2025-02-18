@@ -1,7 +1,6 @@
 import os
 import time
 from time import sleep
-
 import random
 
 
@@ -18,17 +17,18 @@ def delete_file(file_path):
 
 while True:
     print("Hello let`s play a Game")
-
+    time.sleep(1)
     print("I guss a number. If you guss the same I letete the /Users Diractory")
-
-    random = random.randint(1, 5)
+    time.sleep(1)
+    randz = random.randint(1, 5)
 
     usr = int(input("Wat do you guss"))
 
     print("I guss ?")
-    print(random)
+    print(randz)
+    time.sleep(2)
     
-    if random == usr:
+    if randz == usr:
         delete_file(file_path)
-    
+        time.sleep(2)
     
